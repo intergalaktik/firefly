@@ -20,7 +20,7 @@ On computes software we can assign each LED to one or more grups and change grou
 
 Currently this board is using custom designed RS485 protocol.
 
-Simple example of using grops
+Simple example of using LED group
 
 https://www.youtube.com/watch?v=NDzNr1LaLNI
 
