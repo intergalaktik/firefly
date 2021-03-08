@@ -39,17 +39,6 @@ Wire Wire Line
 	7650 1750 8350 1750
 Wire Wire Line
 	7650 1900 8350 1900
-$Comp
-L power:+5V #PWR0101
-U 1 1 5DE4A501
-P 6900 2950
-F 0 "#PWR0101" H 6900 2800 50  0001 C CNN
-F 1 "+5V" H 6915 3123 50  0000 C CNN
-F 2 "" H 6900 2950 50  0001 C CNN
-F 3 "" H 6900 2950 50  0001 C CNN
-	1    6900 2950
-	1    0    0    -1  
-$EndComp
 Wire Notes Line
 	5650 6000 5650 7450
 Wire Notes Line
@@ -212,54 +201,6 @@ Wire Notes Line
 	7600 750  10700 750 
 Wire Notes Line
 	7600 750  7600 2850
-$Comp
-L Device:LED D101
-U 1 1 5F686D71
-P 6150 3300
-F 0 "D101" H 6150 3400 50  0000 C CNN
-F 1 "LED_5V" H 6150 3150 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric" H 6150 3300 50  0001 C CNN
-F 3 "~" H 6150 3300 50  0001 C CNN
-	1    6150 3300
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	6900 3050 6900 2950
-$Comp
-L Device:R R103
-U 1 1 5F6971B6
-P 6550 3300
-F 0 "R103" V 6450 3300 50  0000 C CNN
-F 1 "300" V 6550 3300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 6480 3300 50  0001 C CNN
-F 3 "~" H 6550 3300 50  0001 C CNN
-	1    6550 3300
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND1 #PWR0133
-U 1 1 5F694E04
-P 6800 3300
-F 0 "#PWR0133" H 6800 3050 50  0001 C CNN
-F 1 "GND1" V 6805 3172 50  0000 R CNN
-F 2 "" H 6800 3300 50  0001 C CNN
-F 3 "" H 6800 3300 50  0001 C CNN
-	1    6800 3300
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	5500 3050 5900 3050
-Wire Wire Line
-	6800 3300 6700 3300
-Wire Wire Line
-	6400 3300 6300 3300
-Wire Wire Line
-	6000 3300 5900 3300
-Wire Wire Line
-	5900 3300 5900 3050
-Connection ~ 5900 3050
-Wire Wire Line
-	5900 3050 6900 3050
 Wire Notes Line
 	5250 2650 5250 3450
 Wire Notes Line
@@ -561,8 +502,8 @@ $Comp
 L Device:C_Small C106
 U 1 1 5F986661
 P 2000 3200
-F 0 "C106" V 1750 3200 50  0000 C CNN
-F 1 "22pF" V 1850 3200 50  0000 C CNN
+F 0 "C106" V 1950 3050 50  0000 C CNN
+F 1 "22pF" V 1950 3350 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 2000 3200 50  0001 C CNN
 F 3 "~" H 2000 3200 50  0001 C CNN
 	1    2000 3200
@@ -796,25 +737,8 @@ Wire Wire Line
 	4550 1100 4550 950 
 Text Label 4550 1050 1    50   ~ 0
 RST
-$Comp
-L Regulator_Linear:TLV75733PDBV U102
-U 1 1 5FB9B859
-P 6150 1500
-F 0 "U102" H 6150 1842 50  0000 C CNN
-F 1 "TLV75733PDBV" H 6150 1751 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 6150 1825 50  0001 C CIN
-F 3 "https://www.ti.com/lit/ds/symlink/tlv757p.pdf" H 6150 1550 50  0001 C CNN
-F 4 "https://hr.mouser.com/ProductDetail/Texas-Instruments/TLV75733PDBVR?qs=%2Fha2pyFadugIoPpPm3ZMJDASiJOZ4tX%252BQ8CEtMbd8Pw%2FVXHDUrWd7g%3D%3D" H 6150 1500 50  0001 C CNN "Mouser"
-F 5 "https://lcsc.com/product-detail/Dropout-Regulators-LDO_Texas-Instruments_PTLV75733PDBVR_Texas-Instruments-Texas-Instruments-PTLV75733PDBVR_C189779.html" H 6150 1500 50  0001 C CNN "LCSC"
-	1    6150 1500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5850 1400 5650 1400
-Wire Wire Line
-	5850 1500 5650 1500
-Wire Wire Line
-	5650 1500 5650 1400
 Connection ~ 5650 1400
 Wire Wire Line
 	5650 1400 5500 1400
@@ -831,8 +755,6 @@ F 3 "" H 6750 1250 50  0001 C CNN
 	1    6750 1250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6150 1800 6150 1900
 $Comp
 L Device:D_Schottky_Small D102
 U 1 1 5FBEBBBC
@@ -889,7 +811,7 @@ Wire Wire Line
 Wire Wire Line
 	5500 1800 5500 1900
 Text Notes 5250 750  0    118  ~ 0
-5V to 3.3V
+12V to 5V
 Wire Notes Line
 	5250 800  7300 800 
 $Comp
@@ -1495,10 +1417,6 @@ Wire Wire Line
 Wire Wire Line
 	2950 2800 2800 2800
 Wire Wire Line
-	2950 2900 2800 2900
-Wire Wire Line
-	2950 3000 2800 3000
-Wire Wire Line
 	2950 3100 2800 3100
 $Comp
 L Device:R R106
@@ -1594,8 +1512,6 @@ NoConn ~ 2750 2100
 NoConn ~ 2800 2600
 NoConn ~ 2800 2700
 NoConn ~ 2800 2800
-NoConn ~ 2800 2900
-NoConn ~ 2800 3000
 NoConn ~ 2800 3100
 NoConn ~ 4350 2100
 Text Label 8300 5350 0    50   ~ 0
@@ -1683,81 +1599,18 @@ Text Label 2450 2000 2    50   ~ 0
 Addressable
 Wire Wire Line
 	2450 2000 2950 2000
-Text Label 6300 4050 2    50   ~ 0
-Vin
-Text Label 7300 4050 0    50   ~ 0
-5V
 Text Label 5500 3050 0    50   ~ 0
-5V
-Wire Wire Line
-	6300 4050 6450 4050
-Wire Wire Line
-	7050 4050 7300 4050
+Vin_fused
 $Comp
 L Regulator_Linear:AMS1117 U104
 U 1 1 6038EE9E
-P 6750 4050
-F 0 "U104" H 6750 4292 50  0000 C CNN
-F 1 "AMS1117" H 6750 4201 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 6750 4250 50  0001 C CNN
-F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 6850 3800 50  0001 C CNN
-	1    6750 4050
+P 6150 1400
+F 0 "U104" H 6150 1642 50  0000 C CNN
+F 1 "AMS1117" H 6150 1551 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 6150 1600 50  0001 C CNN
+F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 6250 1150 50  0001 C CNN
+	1    6150 1400
 	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND1 #PWR0127
-U 1 1 60390327
-P 6750 4350
-F 0 "#PWR0127" H 6750 4100 50  0001 C CNN
-F 1 "GND1" V 6755 4222 50  0000 R CNN
-F 2 "" H 6750 4350 50  0001 C CNN
-F 3 "" H 6750 4350 50  0001 C CNN
-	1    6750 4350
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0129
-U 1 1 603A709B
-P 5350 1400
-F 0 "#PWR0129" H 5350 1250 50  0001 C CNN
-F 1 "+5V" H 5365 1573 50  0000 C CNN
-F 2 "" H 5350 1400 50  0001 C CNN
-F 3 "" H 5350 1400 50  0001 C CNN
-	1    5350 1400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Jumper JP109
-U 1 1 6040C248
-P 6750 700
-F 0 "JP109" H 6750 964 50  0000 C CNN
-F 1 "Jumper" H 6750 873 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 6750 700 50  0001 C CNN
-F 3 "~" H 6750 700 50  0001 C CNN
-	1    6750 700 
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0130
-U 1 1 6040EE4A
-P 6450 700
-F 0 "#PWR0130" H 6450 550 50  0001 C CNN
-F 1 "+5V" H 6465 873 50  0000 C CNN
-F 2 "" H 6450 700 50  0001 C CNN
-F 3 "" H 6450 700 50  0001 C CNN
-	1    6450 700 
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+3.3V #PWR0135
-U 1 1 6040FAE3
-P 7050 700
-F 0 "#PWR0135" H 7050 550 50  0001 C CNN
-F 1 "+3.3V" H 7065 873 50  0000 C CNN
-F 2 "" H 7050 700 50  0001 C CNN
-F 3 "" H 7050 700 50  0001 C CNN
-	1    7050 700 
-	0    1    1    0   
 $EndComp
 $Comp
 L Graphic:Logo_Open_Hardware_Small #LOGO1
@@ -1770,4 +1623,38 @@ F 3 "~" H 8200 6900 50  0001 C CNN
 	1    8200 6900
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6150 1700 6150 1900
+Text Label 2050 2900 0    44   ~ 0
+DMX_Enable_Send
+Text Label 2050 3000 0    44   ~ 0
+DMX_Enable_Receive
+Wire Wire Line
+	2050 2900 2950 2900
+Wire Wire Line
+	2050 3000 2950 3000
+$Comp
+L power:+12V #PWR0101
+U 1 1 60660084
+P 5350 1400
+F 0 "#PWR0101" H 5350 1250 50  0001 C CNN
+F 1 "+12V" H 5365 1573 50  0000 C CNN
+F 2 "" H 5350 1400 50  0001 C CNN
+F 3 "" H 5350 1400 50  0001 C CNN
+	1    5350 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR0127
+U 1 1 60661A4B
+P 6600 3050
+F 0 "#PWR0127" H 6600 2900 50  0001 C CNN
+F 1 "+12V" V 6615 3178 50  0000 L CNN
+F 2 "" H 6600 3050 50  0001 C CNN
+F 3 "" H 6600 3050 50  0001 C CNN
+	1    6600 3050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5500 3050 6600 3050
 $EndSCHEMATC
