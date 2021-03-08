@@ -35,7 +35,7 @@ Wire Notes Line
 Wire Notes Line
 	4700 3550 4700 750 
 $Comp
-L antena:C_Small C?
+L Device:C_Small C?
 U 1 1 5F862E69
 P 7300 2900
 AR Path="/5F862E69" Ref="C?"  Part="1" 
@@ -48,7 +48,7 @@ F 3 "~" H 7300 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antena:C_Small C?
+L Device:C_Small C?
 U 1 1 5F862E6F
 P 7600 2900
 AR Path="/5F862E6F" Ref="C?"  Part="1" 
@@ -61,7 +61,7 @@ F 3 "~" H 7600 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antena:C_Small C?
+L Device:C_Small C?
 U 1 1 5F862E75
 P 7300 3200
 AR Path="/5F862E75" Ref="C?"  Part="1" 
@@ -74,7 +74,7 @@ F 3 "~" H 7300 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antena:C_Small C?
+L Device:C_Small C?
 U 1 1 5F862E7B
 P 7600 3200
 AR Path="/5F862E7B" Ref="C?"  Part="1" 
@@ -87,7 +87,7 @@ F 3 "~" H 7600 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antena:C_Small C?
+L Device:C_Small C?
 U 1 1 5F862E81
 P 5150 2900
 AR Path="/5F862E81" Ref="C?"  Part="1" 
@@ -100,7 +100,7 @@ F 3 "~" H 5150 2900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L antena:C_Small C?
+L Device:C_Small C?
 U 1 1 5F862E87
 P 4850 2900
 AR Path="/5F862E87" Ref="C?"  Part="1" 
@@ -113,7 +113,7 @@ F 3 "~" H 4850 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antena:C_Small C?
+L Device:C_Small C?
 U 1 1 5F862E8D
 P 5150 3200
 AR Path="/5F862E8D" Ref="C?"  Part="1" 
@@ -126,7 +126,7 @@ F 3 "~" H 5150 3200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L antena:C_Small C?
+L Device:C_Small C?
 U 1 1 5F862E93
 P 4850 3200
 AR Path="/5F862E93" Ref="C?"  Part="1" 
@@ -274,7 +274,7 @@ Terminators
 Text Notes 6400 4300 0    118  ~ 0
 Link Tx to Rx (Optional)
 $Comp
-L antena:R_Small R?
+L Device:R_Small R?
 U 1 1 5F862F44
 P 10150 5700
 AR Path="/5F862F44" Ref="R?"  Part="1" 

@@ -213,7 +213,7 @@ Wire Notes Line
 Wire Notes Line
 	7600 750  7600 2850
 $Comp
-L antena:LED D101
+L Device:LED D101
 U 1 1 5F686D71
 P 6150 3300
 F 0 "D101" H 6150 3400 50  0000 C CNN
@@ -226,7 +226,7 @@ $EndComp
 Wire Wire Line
 	6900 3050 6900 2950
 $Comp
-L antena:R R103
+L Device:R R103
 U 1 1 5F6971B6
 P 6550 3300
 F 0 "R103" V 6450 3300 50  0000 C CNN
@@ -308,7 +308,7 @@ F 4 "https://hr.mouser.com/ProductDetail/Diptronics/DJ-08-V-T-R?qs=vLWxofP3U2z9m
 	1    0    0    -1  
 $EndComp
 $Comp
-L antena:R R102
+L Device:R R102
 U 1 1 5F725A3C
 P 3200 7100
 F 0 "R102" V 3100 7100 50  0000 C CNN
@@ -447,7 +447,7 @@ $EndComp
 Wire Wire Line
 	3550 1050 3550 1300
 $Comp
-L antena:R R101
+L Device:R R101
 U 1 1 5F7EA38F
 P 2400 2500
 F 0 "R101" V 2500 2500 50  0000 C CNN
@@ -546,7 +546,7 @@ SW_3
 Text Label 2600 1400 0    50   ~ 0
 SW_4
 $Comp
-L antena:Crystal_Small Y101
+L Device:Crystal_Small Y101
 U 1 1 5F9853A3
 P 2300 3350
 F 0 "Y101" H 2150 3450 50  0000 L CNN
@@ -558,7 +558,7 @@ F 4 "https://hr.mouser.com/ProductDetail/ECS/ECS-160-18-23G-JGN-TR?qs=HXFqYaX1Q2
 	0    1    1    0   
 $EndComp
 $Comp
-L antena:C_Small C106
+L Device:C_Small C106
 U 1 1 5F986661
 P 2000 3200
 F 0 "C106" V 1750 3200 50  0000 C CNN
@@ -569,7 +569,7 @@ F 3 "~" H 2000 3200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L antena:C_Small C107
+L Device:C_Small C107
 U 1 1 5F986CA0
 P 2000 3500
 F 0 "C107" V 2100 3500 50  0000 C CNN
@@ -600,7 +600,7 @@ Wire Wire Line
 	2950 3200 2300 3200
 Connection ~ 2300 3200
 $Comp
-L antena:C_Small C108
+L Device:C_Small C108
 U 1 1 5F9AC920
 P 4300 4100
 F 0 "C108" H 4392 4146 50  0000 L CNN
@@ -657,7 +657,7 @@ F 3 "" H 1800 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antena:C_Small C102
+L Device:C_Small C102
 U 1 1 5F9BE6D9
 P 900 4250
 F 0 "C102" H 992 4296 50  0000 L CNN
@@ -668,7 +668,7 @@ F 3 "~" H 900 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antena:C_Small C103
+L Device:C_Small C103
 U 1 1 5F9BEAEC
 P 1200 4250
 F 0 "C103" H 1292 4296 50  0000 L CNN
@@ -679,7 +679,7 @@ F 3 "~" H 1200 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antena:C_Small C104
+L Device:C_Small C104
 U 1 1 5F9D8B6F
 P 1500 4250
 F 0 "C104" H 1592 4296 50  0000 L CNN
@@ -690,7 +690,7 @@ F 3 "~" H 1500 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antena:C_Small C105
+L Device:C_Small C105
 U 1 1 5F9D8E99
 P 1800 4250
 F 0 "C105" H 1892 4296 50  0000 L CNN
@@ -709,7 +709,7 @@ Wire Wire Line
 Wire Wire Line
 	900  4350 900  4450
 $Comp
-L antena:CP_Small C101
+L Device:CP_Small C101
 U 1 1 5F9FCC56
 P 900 3500
 F 0 "C101" H 988 3546 50  0000 L CNN
@@ -834,7 +834,7 @@ $EndComp
 Wire Wire Line
 	6150 1800 6150 1900
 $Comp
-L antena:D_Schottky_Small D102
+L Device:D_Schottky_Small D102
 U 1 1 5FBEBBBC
 P 6150 1050
 F 0 "D102" H 6150 1255 50  0000 C CNN
@@ -856,7 +856,7 @@ Wire Wire Line
 Wire Wire Line
 	5650 1050 5650 1400
 $Comp
-L antena:C_Small C109
+L Device:C_Small C109
 U 1 1 5FC0318D
 P 5500 1700
 F 0 "C109" H 5592 1746 50  0000 L CNN
@@ -867,7 +867,7 @@ F 3 "~" H 5500 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antena:C_Small C110
+L Device:C_Small C110
 U 1 1 5FC03DDE
 P 6600 1700
 F 0 "C110" H 6692 1746 50  0000 L CNN
@@ -992,7 +992,7 @@ F 3 "" H 1800 3350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L antena:LED D103
+L Device:LED D103
 U 1 1 5FD38962
 P 6950 1500
 F 0 "D103" V 7000 1450 50  0000 R CNN
@@ -1003,7 +1003,7 @@ F 3 "~" H 6950 1500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antena:R R104
+L Device:R R104
 U 1 1 5FD3931C
 P 6950 1850
 F 0 "R104" V 6850 1950 50  0000 R CNN
@@ -1210,7 +1210,7 @@ Wire Wire Line
 Text Label 2650 3500 0    50   ~ 0
 SCK
 $Comp
-L antena:C_Small C119
+L Device:C_Small C119
 U 1 1 5FC8AE3E
 P 900 5050
 F 0 "C119" H 992 5096 50  0000 L CNN
@@ -1221,7 +1221,7 @@ F 3 "~" H 900 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antena:C_Small C120
+L Device:C_Small C120
 U 1 1 5FC8BC8C
 P 1250 5050
 F 0 "C120" H 1342 5096 50  0000 L CNN
@@ -1232,7 +1232,7 @@ F 3 "~" H 1250 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antena:C_Small C121
+L Device:C_Small C121
 U 1 1 5FC8C265
 P 1600 5050
 F 0 "C121" H 1692 5096 50  0000 L CNN
@@ -1243,7 +1243,7 @@ F 3 "~" H 1600 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antena:C_Small C122
+L Device:C_Small C122
 U 1 1 5FC8C761
 P 1950 5050
 F 0 "C122" H 2042 5096 50  0000 L CNN
@@ -1254,7 +1254,7 @@ F 3 "~" H 1950 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antena:C_Small C123
+L Device:C_Small C123
 U 1 1 5FC8CC1C
 P 2300 5050
 F 0 "C123" H 2392 5096 50  0000 L CNN
@@ -1337,7 +1337,7 @@ Wire Wire Line
 Text Notes 900  4850 0    50   ~ 0
 Global decoupling capacitors
 $Comp
-L antena:LED D104
+L Device:LED D104
 U 1 1 5FF42657
 P 5500 4400
 F 0 "D104" H 5500 4500 50  0000 C CNN
@@ -1348,7 +1348,7 @@ F 3 "~" H 5500 4400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antena:LED D105
+L Device:LED D105
 U 1 1 5FF46FF6
 P 5850 4400
 F 0 "D105" H 5850 4500 50  0000 C CNN
@@ -1367,7 +1367,7 @@ Wire Wire Line
 Wire Wire Line
 	5500 4150 5500 4250
 $Comp
-L antena:R R1
+L Device:R R1
 U 1 1 5FFD71F9
 P 5500 4800
 F 0 "R1" V 5400 4800 50  0000 C CNN
@@ -1378,7 +1378,7 @@ F 3 "~" H 5500 4800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L antena:R R2
+L Device:R R2
 U 1 1 5FFD791C
 P 5850 4800
 F 0 "R2" V 5750 4800 50  0000 C CNN
@@ -1501,7 +1501,7 @@ Wire Wire Line
 Wire Wire Line
 	2950 3100 2800 3100
 $Comp
-L antena:R R106
+L Device:R R106
 U 1 1 60248147
 P 2250 2400
 F 0 "R106" V 2150 2400 50  0000 C CNN
@@ -1520,7 +1520,7 @@ Wire Wire Line
 Wire Wire Line
 	2250 2500 2200 2500
 $Comp
-L antena:C_Small C124
+L Device:C_Small C124
 U 1 1 60289BFC
 P 2400 2700
 F 0 "C124" V 2450 2750 50  0000 L CNN
@@ -1727,7 +1727,7 @@ F 3 "" H 5350 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antena:Jumper JP109
+L Device:Jumper JP109
 U 1 1 6040C248
 P 6750 700
 F 0 "JP109" H 6750 964 50  0000 C CNN

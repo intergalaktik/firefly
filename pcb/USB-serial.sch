@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L FTDI_FT231XS-U_Breakout-rescue:C C201
+L Device:C C201
 U 1 1 5784B3B5
 P 3050 2650
 F 0 "C201" H 2950 2750 50  0000 L CNN
@@ -25,7 +25,7 @@ F 3 "" H 3050 2650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FTDI_FT231XS-U_Breakout-rescue:FT231XS U201
+L Interface_USB:FT231XS U201
 U 1 1 5784D541
 P 5450 3350
 F 0 "U201" H 4900 4150 50  0000 L CNN
@@ -36,7 +36,7 @@ F 3 "" H 5450 3350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FTDI_FT231XS-U_Breakout-rescue:R R203
+L Device:R R203
 U 1 1 578639DA
 P 4550 3150
 F 0 "R203" V 4650 3100 50  0000 C CNN
@@ -47,7 +47,7 @@ F 3 "" H 4550 3150 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L FTDI_FT231XS-U_Breakout-rescue:R R202
+L Device:R R202
 U 1 1 57863B0B
 P 4550 3050
 F 0 "R202" V 4450 3000 50  0000 C CNN
@@ -58,7 +58,7 @@ F 3 "" H 4550 3050 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L FTDI_FT231XS-U_Breakout-rescue:C_Small C203
+L Device:C_Small C203
 U 1 1 5786579A
 P 3600 3600
 F 0 "C203" H 3400 3700 50  0000 L CNN
@@ -69,7 +69,7 @@ F 3 "" H 3600 3600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FTDI_FT231XS-U_Breakout-rescue:C_Small C204
+L Device:C_Small C204
 U 1 1 57865831
 P 3850 3600
 F 0 "C204" H 3650 3700 50  0000 L CNN
@@ -80,7 +80,7 @@ F 3 "" H 3850 3600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FTDI_FT231XS-U_Breakout-rescue:C C205
+L Device:C C205
 U 1 1 57866269
 P 4450 2500
 F 0 "C205" V 4500 2550 50  0000 L CNN
@@ -91,7 +91,7 @@ F 3 "" H 4450 2500 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L FTDI_FT231XS-U_Breakout-rescue:CP C202
+L Device:CP C202
 U 1 1 57908B23
 P 3350 2650
 F 0 "C202" H 3375 2750 50  0000 L CNN
@@ -102,7 +102,7 @@ F 3 "" H 3350 2650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FTDI_FT231XS-U_Breakout-rescue:R R201
+L Device:R R201
 U 1 1 57909BE0
 P 4450 2750
 F 0 "R201" V 4550 2750 50  0000 C CNN
@@ -196,7 +196,7 @@ Wire Wire Line
 Wire Wire Line
 	4300 3350 4750 3350
 $Comp
-L antena:C_Small C206
+L Device:C_Small C206
 U 1 1 5F9F22F3
 P 6400 3150
 F 0 "C206" V 6500 3150 50  0000 C CNN
@@ -213,7 +213,7 @@ Wire Wire Line
 Wire Wire Line
 	6150 3150 6300 3150
 $Comp
-L antena:LED D201
+L Device:LED D201
 U 1 1 5FA07524
 P 6450 3750
 F 0 "D201" H 6443 3966 50  0000 C CNN
@@ -224,7 +224,7 @@ F 3 "~" H 6450 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antena:LED D202
+L Device:LED D202
 U 1 1 5FA07A34
 P 6600 3850
 F 0 "D202" H 6600 3650 50  0000 C CNN
@@ -235,7 +235,7 @@ F 3 "~" H 6600 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FTDI_FT231XS-U_Breakout-rescue:R R204
+L Device:R R204
 U 1 1 5FA0E3BF
 P 6850 3750
 F 0 "R204" V 6750 3750 50  0000 C CNN
@@ -246,7 +246,7 @@ F 3 "" H 6850 3750 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L FTDI_FT231XS-U_Breakout-rescue:R R205
+L Device:R R205
 U 1 1 5FA0EABB
 P 7000 3850
 F 0 "R205" V 7100 3850 50  0000 C CNN
