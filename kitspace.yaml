@@ -1,0 +1,4 @@
+summary: RS485 LED strip sender/receiver
+site: http://radiona.org/
+bom: firefly_bom.csv
+color: black
