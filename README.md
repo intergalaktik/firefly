@@ -24,6 +24,10 @@ Simple example of using LED group
 
 https://www.youtube.com/watch?v=NDzNr1LaLNI
 
+Example with more features implemented
+
+https://youtu.be/98tDE7uqz9s
+
 Testing blender render 
 
 https://www.youtube.com/watch?v=SnCAtjjVjGQ
