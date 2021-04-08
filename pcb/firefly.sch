@@ -186,7 +186,7 @@ U 1 1 5EE6216A
 P 10100 6150
 F 0 "ESD1" V 10250 6050 50  0000 L CNN
 F 1 "PESD5V0X1UAB" V 10200 5850 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 10100 6150 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-523" H 10100 6150 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1508358.pdf" H 10100 6150 50  0001 C CNN
 F 4 "PESD5V0X1UAB,115" H 10100 6150 50  0001 C CNN "Article Number"
 F 5 "https://se.farnell.com/nexperia/pesd5v0x1uab-115/diode-esd-low-capacitance-sod523/dp/2069370" H 10100 6150 50  0001 C CNN "Seller"
@@ -452,8 +452,6 @@ Wire Wire Line
 	2950 1600 2850 1600
 Wire Wire Line
 	2850 1600 2850 1300
-Text Label 4250 2000 0    50   ~ 0
-Addressable
 Text Label 2650 1300 0    50   ~ 0
 SW_5
 Text Label 2650 4000 0    50   ~ 0
@@ -817,12 +815,12 @@ Wire Notes Line
 $Comp
 L Connector:TestPoint_Small TP104
 U 1 1 5FCFE2F0
-P 4250 2000
-F 0 "TP104" H 4150 2100 50  0000 L CNN
-F 1 "TP_A" H 4200 1950 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4450 2000 50  0001 C CNN
-F 3 "~" H 4450 2000 50  0001 C CNN
-	1    4250 2000
+P 4800 2200
+F 0 "TP104" H 4700 2300 50  0000 L CNN
+F 1 "TP_A" H 4750 2150 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5000 2200 50  0001 C CNN
+F 3 "~" H 5000 2200 50  0001 C CNN
+	1    4800 2200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1127,8 +1125,6 @@ Wire Wire Line
 	2800 1400 2600 1400
 Wire Wire Line
 	2750 1500 2550 1500
-Wire Wire Line
-	4150 2000 4250 2000
 Text Label 2650 3500 0    50   ~ 0
 SCK
 $Comp
@@ -1474,7 +1470,7 @@ U 1 1 602A8D6A
 P 1650 2400
 F 0 "ESD2" H 1450 2300 50  0000 L CNN
 F 1 "PESD5V0X1UAB" H 1400 2500 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 1650 2400 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-523" H 1650 2400 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1508358.pdf" H 1650 2400 50  0001 C CNN
 F 4 "PESD5V0X1UAB,115" H 1650 2400 50  0001 C CNN "Article Number"
 F 5 "https://se.farnell.com/nexperia/pesd5v0x1uab-115/diode-esd-low-capacitance-sod523/dp/2069370" H 1650 2400 50  0001 C CNN "Seller"
@@ -1530,7 +1526,7 @@ AR Path="/5FB3A500" Ref="JP3"  Part="1"
 AR Path="/5F845145/5FB3A500" Ref="JP?"  Part="1" 
 F 0 "JP3" H 8750 5400 50  0000 C CNN
 F 1 "JP_FTDI_TX" H 8700 5600 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 8750 5500 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 8750 5500 50  0001 C CNN
 F 3 "~" H 8750 5500 50  0001 C CNN
 	1    8750 5500
 	1    0    0    -1  
@@ -1543,7 +1539,7 @@ AR Path="/5FB2EA46" Ref="JP4"  Part="1"
 AR Path="/5F845145/5FB2EA46" Ref="JP?"  Part="1" 
 F 0 "JP4" H 9300 5300 50  0000 C CNN
 F 1 "JP_FTDI_RX" H 9100 5450 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 9100 5350 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 9100 5350 50  0001 C CNN
 F 3 "~" H 9100 5350 50  0001 C CNN
 	1    9100 5350
 	1    0    0    -1  
@@ -1657,4 +1653,33 @@ F 3 "" H 6600 3050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5500 3050 6600 3050
+$Comp
+L Diode:ESD9B3.3ST5G D101
+U 1 1 607D8D4E
+P 6400 4000
+F 0 "D101" V 6354 4079 50  0000 L CNN
+F 1 "82306120029" H 6300 3900 50  0000 L CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 6400 4000 50  0001 C CNN
+F 3 "https://hr.mouser.com/datasheet/2/445/82306120029-1724892.pdf" H 6400 4000 50  0001 C CNN
+F 4 "https://hr.mouser.com/ProductDetail/Wurth-Elektronik/82306120029?qs=2kOmHSv6VfRx19zH7vCkmQ%3D%3D" V 6400 4000 50  0001 C CNN "Mouser"
+	1    6400 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND1 #PWR06
+U 1 1 607ECAE5
+P 6400 4200
+F 0 "#PWR06" H 6400 3950 50  0001 C CNN
+F 1 "GND1" V 6405 4072 50  0000 R CNN
+F 2 "" H 6400 4200 50  0001 C CNN
+F 3 "" H 6400 4200 50  0001 C CNN
+	1    6400 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 3800 6400 3850
+Wire Wire Line
+	6400 4150 6400 4200
+Text Label 6400 3800 1    50   ~ 0
+Vin
 $EndSCHEMATC

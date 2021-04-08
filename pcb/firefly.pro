@@ -1,4 +1,4 @@
-update=ponedjeljak, 08. ožujka 2021. 13:51:20 CET
+update=četvrtak, 08. travnja 2021. 15:34:17 CEST
 version=1
 last_client=kicad
 [general]
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=RS485_V2.net
+LastNetListRead=firefly.net
 CopperLayerCount=4
 BoardThickness=1.6
 AllowMicroVias=0
@@ -73,7 +73,7 @@ OthersTextUpright=1
 SolderMaskClearance=0
 SolderMaskMinWidth=0
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0

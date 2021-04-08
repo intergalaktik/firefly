@@ -306,7 +306,7 @@ AR Path="/5F862F5B" Ref="JP?"  Part="1"
 AR Path="/5F845145/5F862F5B" Ref="JP105"  Part="1" 
 F 0 "JP105" H 7650 4955 50  0000 C CNN
 F 1 "SolderJumper_2_Open" H 7650 4864 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 7650 4750 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 7650 4750 50  0001 C CNN
 F 3 "~" H 7650 4750 50  0001 C CNN
 	1    7650 4750
 	1    0    0    -1  
@@ -319,7 +319,7 @@ AR Path="/5F862F61" Ref="JP?"  Part="1"
 AR Path="/5F845145/5F862F61" Ref="JP106"  Part="1" 
 F 0 "JP106" H 7650 5305 50  0000 C CNN
 F 1 "SolderJumper_2_Open" H 7650 5214 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 7650 5100 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 7650 5100 50  0001 C CNN
 F 3 "~" H 7650 5100 50  0001 C CNN
 	1    7650 5100
 	1    0    0    -1  
@@ -888,4 +888,70 @@ Wire Wire Line
 	9500 1850 9500 1950
 Wire Wire Line
 	9600 1850 9600 1950
+Text Label 5150 3850 0    44   ~ 0
+DMX-
+Text Label 5600 3850 0    44   ~ 0
+DMX+
+$Comp
+L power:GND2 #PWR?
+U 1 1 6081C4D7
+P 5150 4350
+AR Path="/6081C4D7" Ref="#PWR?"  Part="1" 
+AR Path="/5F845145/6081C4D7" Ref="#PWR07"  Part="1" 
+F 0 "#PWR07" H 5150 4100 50  0001 C CNN
+F 1 "GND2" V 5155 4222 50  0000 R CNN
+F 2 "" H 5150 4350 50  0001 C CNN
+F 3 "" H 5150 4350 50  0001 C CNN
+	1    5150 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND2 #PWR?
+U 1 1 6081CCE9
+P 5600 4350
+AR Path="/6081CCE9" Ref="#PWR?"  Part="1" 
+AR Path="/5F845145/6081CCE9" Ref="#PWR08"  Part="1" 
+F 0 "#PWR08" H 5600 4100 50  0001 C CNN
+F 1 "GND2" V 5605 4222 50  0000 R CNN
+F 2 "" H 5600 4350 50  0001 C CNN
+F 3 "" H 5600 4350 50  0001 C CNN
+	1    5600 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 3850 5150 3950
+Wire Wire Line
+	5600 3850 5600 3950
+Wire Wire Line
+	5150 4250 5150 4350
+Wire Wire Line
+	5600 4250 5600 4350
+$Comp
+L Diode:ESD9B3.3ST5G D?
+U 1 1 608502C5
+P 5150 4100
+AR Path="/608502C5" Ref="D?"  Part="1" 
+AR Path="/5F845145/608502C5" Ref="D106"  Part="1" 
+F 0 "D106" H 5050 4200 50  0000 L CNN
+F 1 "82306120029" H 5050 4000 50  0000 L CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 5150 4100 50  0001 C CNN
+F 3 "https://hr.mouser.com/datasheet/2/445/82306120029-1724892.pdf" H 5150 4100 50  0001 C CNN
+F 4 "https://hr.mouser.com/ProductDetail/Wurth-Elektronik/82306120029?qs=2kOmHSv6VfRx19zH7vCkmQ%3D%3D" V 5150 4100 50  0001 C CNN "Mouser"
+	1    5150 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:ESD9B3.3ST5G D?
+U 1 1 6085384B
+P 5600 4100
+AR Path="/6085384B" Ref="D?"  Part="1" 
+AR Path="/5F845145/6085384B" Ref="D107"  Part="1" 
+F 0 "D107" H 5500 4200 50  0000 L CNN
+F 1 "82306120029" H 5500 4000 50  0000 L CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 5600 4100 50  0001 C CNN
+F 3 "https://hr.mouser.com/datasheet/2/445/82306120029-1724892.pdf" H 5600 4100 50  0001 C CNN
+F 4 "https://hr.mouser.com/ProductDetail/Wurth-Elektronik/82306120029?qs=2kOmHSv6VfRx19zH7vCkmQ%3D%3D" V 5600 4100 50  0001 C CNN "Mouser"
+	1    5600 4100
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
