@@ -39,3 +39,21 @@ https://github.com/TimGremalm/LightBoxNano
 PCBart blender style
 
 https://github.com/pcbarts/stylized-blender-setup
+
+40 pcs batch for museum instalation
+
+![Stencil](pictures/Firefly_almost_ready_3.png)
+
+![Half](pictures/Firefly_almost_ready_7.png)
+
+![Done](pictures/Firefly_almost_ready_200m.png)
+
+DMX test
+
+https://www.youtube.com/watch?v=Ih8ujr5BlC8
+
+https://www.youtube.com/watch?v=qBxfGmqJY24
+
+https://www.youtube.com/watch?v=aGFyOSpUzw4
+
+https://www.youtube.com/watch?v=s4EHGpA8z-Q&t=11s
