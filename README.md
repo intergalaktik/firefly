@@ -46,6 +46,8 @@ https://github.com/pcbarts/stylized-blender-setup
 
 ![Half](pictures/Firefly_almost_ready_7.png)
 
+![40](pictures/Firefly_almost_ready_r.png)
+
 ![Done](pictures/Firefly_almost_ready_200m.png)
 
 DMX test
