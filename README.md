@@ -50,6 +50,8 @@ https://github.com/pcbarts/stylized-blender-setup
 
 ![Done](pictures/Firefly_almost_ready_200m.png)
 
+![Action](https://github.com/intergalaktik/firefly/blob/main/pictures/FireFly_Action.png)
+
 DMX test
 
 https://www.youtube.com/watch?v=Ih8ujr5BlC8
