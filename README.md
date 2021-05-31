@@ -16,7 +16,7 @@ Currently sender board is just use as USB > RS485 pass
 
 On receiver board switches are used to set panel ID
 
-On computes software we can assign each LED to one or more groups and change group color with just one message.
+On computer software we can assign each LED to one or more groups and change group color with just one message.
 
 Currently this board is using custom designed RS485 protocol.
 
