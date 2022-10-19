@@ -5,9 +5,9 @@
     {
       "Vendor":      "KiCad",
       "Application": "Pcbnew",
-      "Version":     "5.1.9+dfsg1-1~bpo10+1"
+      "Version":     "5.1.9+dfsg1-1+deb11u1"
     },
-    "CreationDate":  "2021-03-08T15:45:51+01:00"
+    "CreationDate":  "2022-10-19T16:44:56+02:00"
   },
   "GeneralSpecs":
   {
@@ -20,7 +20,7 @@
     "Size":
     {
       "X": 85.050,
-      "Y": 57.550
+      "Y": 70.550
     },
     "LayerNumber": 4,
     "BoardThickness":  1.600
@@ -41,8 +41,8 @@
       "PadToPad":  0.200,
       "PadToTrack":  0.200,
       "TrackToTrack":  0.200,
-      "TrackToRegion":  0.508,
-      "RegionToRegion":  0.508
+      "TrackToRegion":  0.200,
+      "RegionToRegion":  0.200
     }
   ],
   "FilesAttributes":

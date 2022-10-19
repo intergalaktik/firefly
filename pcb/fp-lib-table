@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name logo)(type KiCad)(uri ${KIPRJMOD}/logo)(options "")(descr ""))
+  (lib (name RPi_Pico)(type KiCad)(uri /media/internal/projects/intergalaktik/novena/firefly/libraries/Raspberry_pico/RPi_Pico.pretty)(options "")(descr ""))
+  (lib (name Module)(type KiCad)(uri /media/internal/projects/intergalaktik/novena/firefly/libraries/Module.pretty)(options "")(descr ""))
+  (lib (name 12BHC186P1-GR)(type KiCad)(uri /media/internal/projects/intergalaktik/novena/firefly/libraries/12BHC186P1-GR)(options "")(descr ""))
+)

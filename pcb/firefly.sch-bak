@@ -523,9 +523,9 @@ F 3 "~" H 2600 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 3275 3550 3    50   ~ 0
-SWDIO
+MISO
 Text Label 3075 3550 3    50   ~ 0
-SWCLK
+SCK
 $Comp
 L power:GND1 #PWR0118
 U 1 1 5FA68A07
@@ -5116,7 +5116,7 @@ Wire Wire Line
 Text Notes 750  2650 0    50   ~ 0
 Ports:\nA0   PC0 Current_Feedback\nA1   PC1 POT_1\nA2   PC2 POT_2\nD2   PD2 Enable_Vin_fused\nD1   PD0 (TX) DMX_Send\nD0   PD1 (RX) DMX_Receive\nD3   PD3 addressable\nD4   PD4 SW5\nD5   PD5 SW6\nD6   PD6 SW7\nD7   PD7 SW8\nD8   PB0 PB0\nD9   PB1 PB1\nD10  PB2 PB2\nD11  PB3 MOSI\nD12  PB4 MISO\nD13  PB5 SCK\nA7   PE3 SW4\nA6   PE2 SW3\nSCL1  PE1 SW2\nSDA1  PE0 SW1
 Text Label 2400 4550 2    50   ~ 0
-SWCLK
+SCK
 Text Label 2400 4450 2    50   ~ 0
-SWDIO
+MISO
 $EndSCHEMATC
